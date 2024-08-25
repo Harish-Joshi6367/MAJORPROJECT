@@ -4,10 +4,11 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    display: flex;
     flex-wrap: wrap;
 }
 .filter {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-right: 2rem;
     opacity: 0.5;

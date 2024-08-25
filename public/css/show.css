@@ -1,0 +1,38 @@
+@media (max-width: 440px) {
+    .card {
+        width: 91.66666667% !important;
+        margin-left: 8% !important;
+    }
+    .leaveReview {
+        width: 91.66666667% !important;
+        margin-left: 8% !important;
+    }
+    .btn {
+        margin-left: 8% !important;
+        width: 21% !important;
+    }
+    .delete-btn {
+        width: 100% !important;
+        margin-left: 28% !important;
+    }
+    .show-card {
+        margin-left: 8% !important;
+        width: 91.66666667% !important;
+    }
+    .leaveReview {
+        margin-left: 8% !important;
+        width: 91.66666667% !important;
+    }
+    .map {
+        margin-left: 8% !important;
+        width: 91.66666667% !important;
+    }
+    .new-form {
+        margin-left: 0% !important;
+        width: 91.66666667% !important;
+    }
+    .edit-form {
+        margin-left: 8% !important;
+        width: 90% !important;
+    }
+}

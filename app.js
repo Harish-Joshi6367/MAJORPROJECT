@@ -18,9 +18,11 @@ const User = require("./models/user.js");
 
 const listingRouter = require("./routes/listing.js");
 const reviewRouter = require("./routes/review.js");
+const iconRouter = require("./routes/icon.js");
 const userRouter = require("./routes/user.js");
+const Listing = require('./models/listing.js');
 
-// let MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+// let dbUrl = "mongodb://127.0.0.1:27017/wanderlust";
 const dbUrl = process.env.ATLASDB_URL;
 
 main().then(()=>{
@@ -96,6 +98,8 @@ app.use((req, res, next) => {
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
+app.use("/", iconRouter);
+
 
 app.listen(1000, ()=> {
     console.log("listning on port 1000");

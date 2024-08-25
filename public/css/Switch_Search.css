@@ -1,6 +1,8 @@
 /* filter */
 
 #filters{
+    display: flex;
+    justify-content: center;
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +15,10 @@
 .filter:hover {
     opacity: 1;
     cursor: pointer;
+}
+.filter a {
+    color: rgb(59, 54, 81);
+    text-decoration: none;
 }
 .filter p {
     font-size: 0.8rem;
@@ -39,8 +45,8 @@
 .btn-search {
     background-color: #fe424d;
     color: #fff;
-      border-radius: 25px;
-      padding: 0 1rem 0 1rem;
+    border-radius: 25px;
+    padding: 0 1rem 0 1rem;
 }
 .btn-search:hover {
     background-color: #fe424d;
@@ -49,4 +55,13 @@
 .btn-search i {
     display: inline;
     margin: 0.5rem;
+}
+
+
+
+
+@media (max-width: 400px) {
+    .tax-toggle {
+        display: none;
+    }
 }

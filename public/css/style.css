@@ -124,3 +124,7 @@ body{
    height: 400px;
    width: 80vh;
 }
+
+.navbar-nav {
+   background-color: #fff;
+}

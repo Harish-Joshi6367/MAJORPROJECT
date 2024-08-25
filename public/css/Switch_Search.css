@@ -16,7 +16,7 @@
     opacity: 1;
     cursor: pointer;
 }
-.filter a {
+.filter div a {
     color: rgb(59, 54, 81);
     text-decoration: none;
 }

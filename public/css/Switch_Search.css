@@ -7,8 +7,6 @@
     flex-wrap: wrap;
 }
 .filter {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
     margin-right: 2rem;
     opacity: 0.5;
@@ -17,7 +15,7 @@
     opacity: 1;
     cursor: pointer;
 }
-.filter div a {
+.filter a {
     color: rgb(59, 54, 81);
     text-decoration: none;
 }
